@@ -10,7 +10,7 @@ MNGR is an intuitive project management app that allows users to
 	* Start Date
 	* Estimated Complete Date
 ----
-<br>
+
 ## Tech Used
 - Node.JS
 - ExpressJS (Web Server)
@@ -20,7 +20,6 @@ MNGR is an intuitive project management app that allows users to
 - Handlebars (Templating Engine)
 - Sass (CSS Style Library)
 - Passport (User Validation)
-<br>
 
 ## Getting Started
 *To setup and run the application locally, follow these steps*
@@ -36,29 +35,30 @@ git clone git@github.com:lukeduran/project-two.git
 npm install
 ```
 4. Create a local instance of the MySQL database
-a. From your MySQL Workbench, create a new Query Tab
-b. Paste the following code into the new query
+- From your MySQL Workbench, create a new Query Tab
+- Paste the following code into the new query
 ```
 DROP DATABASE IF EXISTS project_two;
 CREATE DATABASE project_two;
 USE project_two;
 ```
-c. Select and execute the script
+- Select and execute the script
+
 4. Create a new local .env file
-a. Create a new file named `.env`
-b. Paste the following code
+- Create a new file named `.env`
+- Paste the following code
 ``` 
 DB_HOST="localhost"
 DB_USER=""
 DB_PASSWORD=""
 DB_DATABASE="project_two"
 ```
-d. Update the `DB_USER=""` to `DB_USER="root"` or whatever username your MySQL session is running on
-e. Update the `DB_PASSWORD=""` to `DB_USER= "<your password>" `
-f. Save the file
+- Update the `DB_USER=""` to `DB_USER="root"` or whatever username your MySQL session is running on
+- Update the `DB_PASSWORD=""` to `DB_USER= "<your password>" `
+- Save the file
 
 6. Run the following code from your command line
 ```
 node server.js 
 ```
-7. From your browser, naviage to `localhost:3000`
+7. From your browser, navigate to `localhost:3000`
