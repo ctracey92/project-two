@@ -1,6 +1,5 @@
 # MNGR 
 
-
 MNGR is an intuitive project management app that allows users to
 - Track multiple projects
 - Create project-specific tasks
@@ -62,3 +61,7 @@ f. Save the file
 node server.js 
 ```
 7. From your browser, naviage to `localhost:3000`
+
+<br>
+##Contributors
+@jstevens79 @lukeduran @mprestonsparks @ctracey92 

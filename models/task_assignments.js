@@ -8,7 +8,6 @@ module.exports = function(sequelize, DataTypes) {
     TaskAssignments.belongsTo(models.User);
     TaskAssignments.belongsTo(models.Task);
   };
-
  
   return TaskAssignments;
 };
